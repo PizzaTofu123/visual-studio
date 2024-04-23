@@ -1,0 +1,22 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Trimester: 1
+Unit     : MCD4720
+Name	 : William
+ID	 : 32210213
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		Monash College
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	The Amazing RPG Character Generator 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+All good Role-Playing games (RPG) have a
+range of characters from that players may
+choose to represent them within different 
+game worlds.
+
+The Amazing RPG Character Generator allows
+players to quickly create a character of
+a requested class, with random attributes.
+
+It's the perfect inspiration for your next
+RPG adventure.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

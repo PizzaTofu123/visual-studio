@@ -1,0 +1,13 @@
+
+
+	Barbarian
+	~~~~~~~~~~~~~~~~~~~~
+	Strength: 5[The minimum Strength is 4 and the random value is 1 ]
+	Endurance: 8[The minimum Endurance is 4 and the random value is 4 ]
+	Dexterity: 4[The minimum Dexterity is 2 and the random value is 2 ]
+	Intelligence: 3[The minimum Intelligence is 1 and the random value is 2 ]
+	Wisdom: 2[The minimum Wisdom is 0 and the random value is 2 ]
+	Charisma: 1[The minimum Charisma is 1 and the random value is 0 ]
+
+
+
