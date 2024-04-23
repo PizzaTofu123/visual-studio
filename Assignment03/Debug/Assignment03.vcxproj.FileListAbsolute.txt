@@ -1,0 +1,4 @@
+D:\Desktops\proyek\Assignment03\Debug\Assignment03.exe
+D:\Desktops\proyek\Assignment03\Debug\Assignment03.pdb
+D:\Desktops\Visual studio\Assignment03\Debug\Assignment03.exe
+D:\Desktops\Visual studio\Assignment03\Debug\Assignment03.pdb

@@ -1,0 +1,48 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	HUNT THE WUMPUS INTRODUCTION AND RULES
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Congratulations! Through close observations and thorough elimination from a list of 
+all the best adventurers throughout the kingdom, you have been selected to take on 
+the mission to track and retrieve the kingdoms stolen treasure. The treasure was stolen
+by The Wumpus, a big, smelly, and powerful beast that have been ravaging nearby villages
+and farms. The wumpus is currently residing in the Cavern of Mysteries made up of many other
+small caves, you will travel there, find the treasures and kill the Wumpus. We will be 
+providing you with the necessities needed on your adventure (A lantern, a bow, 5 arrows 
+and 20 silvers to spend in the shop). We pray for your success brave adventurer.
+
+As you approach the entrance of the cave, you spotted several warning signs which had been 
+built by past adventurers and hunter groups that have survived but have not successfully killed 
+the Wumpus:
+
+Each time you enter a new cave, you may move or shoot into an adjacent cave which will 
+cost a random value of lantern oil between 2 and 4. If you move into a cave that is 
+adjoining into a cave that contains a hazard, there are ways to tell if one of the next rooms 
+contain a:
+
+Bottomless Pit: The other tunnels will feel drafty.
+
+Super Bats: There will be bat noises as they are very territorial.
+
+Wumpus: The Wumpus smell will alert you as it is too foul to ignore.
+
+The Wumpus is usually asleep and will only wake up if you walk into its lair or miss your shot.
+If the Wumpus awaken, there is a 75% chance of it moving on to another adjoining cave or a 25% 
+chance of it going back to sleep. If by chance it does move into the cave you are in, you lose, 
+as no one can go up face to face against the Wumpus.
+
+Hazards:
+
+Bottomless Pits: Are in 2 of the caves in the cavern, if you fall into one, you die and lose.
+
+Super Bats: Lives in 2 of the caves in the cavern, if you walk into one of the cave they live in, 
+they will carry you to a random part of the cavern.
+
+Wumpus: The most dangerous beast throughout the kingdom, recognized as a living legend. If it moves 
+into the same cave you are in, you will not be able to escape and become its dinner, no matter 
+how fast you are, the Wumpus is always faster. The Wumpus is not affected by the super bats nor 
+the bottomless pits.
+
+Lantern Ghost : A vengeful ghost of an adventurer that once died because of the lack of lantern oil 
+and has been haunting the wumpus cavern ever since, will steal a random (10 to 18) amount of lantern 
+oil from if it is in the same cave as you. Beware, the ghost can travel through the cavern walls and 
+is unpredictable.

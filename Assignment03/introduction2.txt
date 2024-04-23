@@ -1,0 +1,21 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	HUNT THE WUMPUS INTRODUCTION AND RULES
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Special Items :
+1. Magical Whistle : One blow into this whistle will make any animal fall into a deep sleep, sadly
+the Wumpus is immune to this.
+2. Sucker Boots : Said to be modelled on the Wumpus feet, these boots can stick to any kind
+of wall.
+
+WIN/LOSE conditions :
+
+You win if you successfully retrieve the hidden treasure and make it back to the entrance of the 
+cave.
+You lose if you fall into a bottomless pit, the Wumpus eats you, or your lantern run out of oil.
+
+Your final score is decided by various factors :
+1. Arrows left (15 points per Arrow left)
+2. Lantern oil left (1 point per Lantern Oil left)
+3. Wumpus kill (200 points for a Wumpus kill)
+4. Treasure Found (300 points for finding the treasure)
+5. Succesfully complete objectives 3 and 4 without dying (350 points)

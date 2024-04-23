@@ -1,0 +1,552 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Space Mono', monospace; 
+}
+
+/*
+body{
+    background-image: url("https://i.redd.it/x4hnwsvps4h91.gif"); 
+    background-repeat: no-repeat;
+    background-size: 1690px 750px;
+    background-attachment: fixed;
+    padding-bottom: 10000000px;
+} */
+/*
+#test{
+    padding-left: 230px;
+    padding-top: 10px;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 8.5px;
+} 
+*/
+
+.navbar {
+    background-color: #000000;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%; /* separates the logo nd the rest */
+    max-width: 1510px;
+    /* a margin is the space around an element's border, while padding is the space 
+    between an element's border and the element's content.*/
+    margin: 0 auto;
+    padding: 0 0;
+}
+
+#navbar__logo {
+    /* tis for the gradient*/
+    background-image: linear-gradient(to top, #535353a1 0%, #b8b8b8 100%);
+    
+    /* -webkit for Chrome, Safari; -moz for Firefox, -o for Opera, -ms for Internet Explorer */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    background-clip: text;
+
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size:2.5rem;
+    padding-left: 1rem;
+    font-weight: bold;
+}
+
+.fa-gem {
+    margin-right: 0.5rem;
+}
+
+.navbar__menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar__item {
+    height: 80px;
+    font-size: 1.8rem;
+}
+
+.navbar__links {
+    color: #8f8f8f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    font-size: 1.8rem;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.navbar__btn{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+
+    padding: 0 1rem;
+    width: 100%;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.button {
+    padding: 10px 20px;
+    color: black; 
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+
+    border: darkblue;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+/*when hovering*/
+.navbar__links:hover
+{
+    transform: scale(1.1) perspective(1px);
+    transition: all 0.3s ease;
+    color: rgb(255, 230, 200);
+}
+
+.button:hover 
+{
+    background-color: rgb(255, 230, 200);
+    transition: all 0.3s ease;
+    transform: scale(1.03) perspective(1px)
+}
+
+/* tis for when in lesser than 960 px will have the triple bar thing appear */
+@media screen and (max-width: 960px){
+
+    /* body{
+        background-image:url("https://wallpapercave.com/wp/wp6650166.gif") ;
+    } */
+
+    #test{
+        opacity: 0;
+    }
+
+    .navbar__container{
+        display:flex;
+        justify-content: space-between;
+        height: 80px;
+        z-index: 1;
+        width: 100%;
+        max-width: 2000px;
+        padding: 0;
+    }
+    
+    .navbar__menu{
+        display: grid;
+        grid-template-columns: auto;
+        margin:0;
+        width: 100%;
+        position: absolute;
+        top: -1000px;
+        opacity: 1;
+        transition: all 0.6s ease;
+        height:50vh;
+        z-index: 0;
+        background: #000000;
+    }
+
+    .navbar__menu.active{
+        top: 100%;
+        opacity: 1;
+        transition: all 0.6s ease;
+        z-index: -1;
+        height: 50vh;
+        font-size: 1.6rem;
+    }
+    
+
+    #navbar__logo{
+        padding-left:15px;
+        z-index: -1;
+    }
+
+    
+    .navbar__item {
+        width: 100%; 
+    }
+
+    .navbar__links {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+    }
+
+    #mobile-menu {
+        position: absolute;
+        top:20%;
+        right:5%;
+        transform: translate(5%,20%);
+    }
+
+    .navbar__btn{
+        padding-bottom: 2rem;
+        z-index: 999;
+    }
+
+    /*dis is for the contact us button*/
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 90px;
+        margin:0;
+        z-index: 999;
+    }
+
+    .navbar__toggle .bar{
+        width:50px;
+        height:8px;
+        margin: 5px 5px;
+        transition: all 0.3s ease-in-out;
+        background: rgb(112, 112, 112);
+        border: white;
+        outline: white;
+        border-radius: 15px;
+        z-index: 1000;
+    }
+
+    .navbar__toggle .bar{
+        display: block;
+        cursor: pointer;
+    }
+
+    #mobile-menu.is-active .bar:nth-child(1) {
+        transform: translateY(13px) rotate(45deg);
+    }
+
+    #mobile-menu.is-active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    #mobile-menu.is-active .bar:nth-child(3) {
+        transform: translateY(-13px) rotate(-45deg);
+    }
+
+    .amogus{
+        z-index: -1;
+    }
+}
+
+.main{
+    background-image: url("https://i.redd.it/lhnvupvps4h91.gif"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+.main__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /*even split*/
+    align-items: center; /* dis is to make it truly center */
+    justify-self: center; /* left right center */
+    margin: 0 auto;
+    height: 90vh;
+    background-color: black;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.main__content h1 {
+    color: #8f8f8f;
+    -webkit-text-stroke: 1.5px white; /* width and color */
+    -moz-text-stroke: 1.5px white; /* width and color */
+    font-size: 5.2rem;
+    padding-left: 5px;
+
+    white-space: nowrap; /* Keeps the content on a single line */
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    /* border-right: .15em solid white; The typwriter cursor  */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 1rem; /* Adjust as needed */
+    animation: 
+        typing 0.75s steps(40, end);
+        /* blink-caret 0.75s step-end infinite;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;   */
+}
+    
+
+.main__content h2 {
+    color: #8f8f8f;
+    -webkit-text-stroke: 1.5px white; /* width and color */
+    -moz-text-stroke: 1.5px white; /* width and color */
+    font-size: 3.9rem;
+    padding-left: 5px;
+
+    white-space: nowrap; /* Keeps the content on a single line */
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    /*border-right: .15em solid white;  The typwriter cursor */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .225rem; /* Adjust as needed */
+    animation: 
+        typing 0.75s steps(40, end);
+        /*blink-caret .75s step-end infinite;*/
+        
+}
+
+.main__content h3{
+    color: #bc2222c2;
+
+    font-size: 2rem;
+    padding-left: 5px;
+
+    opacity: 0;
+    white-space: nowrap; /* Keeps the content on a single line */
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    /* border-right: .15em solid white;  The typwriter cursor */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .225rem; /* Adjust as needed */
+    animation: 
+        fadeIn 3s forwards;
+        animation-delay: 0.75s;
+}
+
+#verse {
+    font-size: 1.75rem;
+    font-weight: bold;
+    /* tis for the gradient*/
+    background-image: linear-gradient(to top, #ffc4005e 0%, #ffc400 100%);
+
+    /* -webkit for Chrome, Safari; -moz for Firefox, -o for Opera, -ms for Internet Explorer */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    background-clip: text;
+
+    padding-left: 5px;
+
+    opacity: 0;
+    white-space: nowrap; /* Keeps the content on a single line */
+    overflow: hidden;
+    animation: 
+        fadeIn 3s forwards;
+        animation-delay: 1.5s;
+    /*blink-caret .75s step-end infinite;*/
+    
+}
+
+#hidden__text{
+    padding-bottom: 10px;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0 }
+    to { opacity: 100% }
+}
+
+#main__image{
+    width: 200%;
+    height: 1000%;
+}
+
+/* The typewriter cursor effect
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(255, 255, 255); }
+} */
+
+.main__btn {
+    font-size: 1rem;
+    background-image:linear-gradient(to top, #69696900 0%, #00000062 100%);
+    
+    border-color: white;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    margin-left: 5px;
+    margin-top: 7.5px;
+}
+
+/*
+.main__btn a{
+    position:relative;
+    z-index:2;
+    color: white;
+    text-decoration: none;
+}
+
+.main__btn:hover
+{
+    transform: scale(1.1) perspective(1px);
+    transition: all 0.3s ease;
+    background-image: rgb(255, 230, 200);
+}
+*/
+
+.main__btn a{
+    display: block;
+    padding: 10px 19px; /* instead of adding padding to btn do these 2 lines will cover whole box*/
+    position:relative;
+    z-index:2;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main__btn:after{
+    border-radius: 3px;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: black;
+    transition: 0.5s;
+    transition-delay: 0.1s;
+}
+
+.main__btn:hover{
+    opacity: 1;
+    
+}
+
+.main__btn:hover:after{
+    width: 100%;
+}
+
+.main__img--container{
+    text-align: center;
+}
+
+#main__img {
+    height: 80%;
+    width: 80%;
+}
+
+/*for mobile responsive m8*/
+@media screen and (max-width:960px) {   
+    .main__container{
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-self: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 125vh;
+    }
+
+    .main__content{
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    .main__content h1{
+        font-size: 4.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .main__content h2{
+        font-size: 3.45rem;
+    }
+
+    .main__content h3 {
+        font-size: 1.7rem;
+        margin-bottom: 10pxpx;
+    }
+
+    .main__btn{
+        margin-top: 25px;
+        transform: scale(1.1);
+    }
+
+}
+
+@media screen and (max-width:480px){
+    .main__content h1{
+        font-size: 4rem;
+        margin-top: 2rem;
+    }
+
+    .main__content h2{
+        font-size: 3rem;
+    }
+
+    .main__content h3 {
+        font-size: 1.3rem;
+    }
+
+    #verse {
+        margin-top: 10px;
+    }
+
+    .main__btn{
+        padding: 12px 36px;
+        margin: 2.5rem 0;
+    }
+}
+
+/* services sec */
+.services {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;  
+}
+
+.services h1{
+    background-image: linear-gradient(to right, #d1d8de 0%, #76b0e2 100%);
+
+    /* -webkit for Chrome, Safari; -moz for Firefox, -o for Opera, -ms for Internet Explorer */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    background-clip: text;
+    
+    background-size: 100%;
+    font-size: 4.8rem;
+    margin-bottom: 5rem;
+
+}
+
+.services__container {
+    
+}

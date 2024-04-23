@@ -1,0 +1,2 @@
+D:\Desktops\proyek\C code\Hello world and aritmetics\Debug\Hello world and aritmetics.exe
+D:\Desktops\proyek\C code\Hello world and aritmetics\Debug\Hello world and aritmetics.pdb
