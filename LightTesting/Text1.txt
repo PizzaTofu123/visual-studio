@@ -1,0 +1,105 @@
+ [0] This seems to be the Entrance!
+1
+99
+99
+E  
+ [1] This is just one big empty space! And it doesn't even smell too bad!!
+2
+5
+8
+ENS
+ [2] This rather odd-shaped cave is cold and drafty.
+1
+3
+10
+WEN
+ [3] This largish cave smells dank and mouldy. 
+2
+4
+12
+WNE
+ [4] This cave smells mostly of rotting vegetation. An assortment of fungi grows quite happily on the eastern wall.
+3
+5
+14 
+NEW
+ [5] This cave is quite small and cramped. A thick slime coats some~ of the surrounding walls.
+1
+4
+6
+NWS
+ [6] This naturally-formed cave is small with a low ceiling. 
+5
+7
+15
+NSW
+ [7] A maze of twisty passages ... all different.
+6
+8
+17
+EWN
+ [8] This roundish cavern is strewn with rubble. 
+1
+7
+9
+WEN
+ [9] Along the southern wall of this large cavern are many huge stalagmites and stalactites like teeth in the gaping maw of a dragon!
+8
+10
+18
+SNE
+ [10] Whoa! This cavern is humongous! Signs of reasonably recent habitation abound here.
+2
+9
+11
+WSE
+ [11] This is more like a cavity than a cave providing little relief from the close walls.
+10
+12
+19
+WSE
+ [12] The ground is damp in places and the air is quite stale within this section of the narrow passage.
+3
+11
+13
+NEW
+ [13] A maze of twisty passages ... all alike.
+12
+14
+20
+NWE
+ [14] This cavern is quite large and almost rectanglar in shape.
+4
+13
+15
+NES
+ [15] This cavern smells rank and mouldy. A haven for magic mushrooms.. 
+6
+14
+16
+ESN
+ [16] In the northern alcove of this small, ovoid chamber is a small mound of dirt surrounded by stones. 
+15
+17
+20
+EWS
+ [17] In this small cave the walls are slick with slime from years~ of constantly oozing dampness.
+7
+16
+18
+WNE
+ [18] You find yourself in another longish, cavern.
+9
+17
+19
+WES
+ [19] Yet another winding tunnel! You haven't been here before,~ have you?
+11
+18
+20
+WES
+ [20] Phew! This must be the Bog of Eternal Stench and the smell is enough to make your eyes water. 
+13
+16
+19
+WNE

@@ -1,0 +1,4 @@
+D:\Desktops\proyek\LightTesting\Debug\LightTesting.exe
+D:\Desktops\proyek\LightTesting\Debug\LightTesting.pdb
+D:\Desktops\Visual studio\LightTesting\Debug\LightTesting.exe
+D:\Desktops\Visual studio\LightTesting\Debug\LightTesting.pdb

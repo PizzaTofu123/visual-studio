@@ -1,0 +1,7 @@
+﻿  Source.cpp
+D:\Desktops\proyek\Lecture_Week10\Source.cpp(59,20): warning C4018: '<': signed/unsigned mismatch
+D:\Desktops\proyek\Lecture_Week10\Source.cpp(65,20): warning C4018: '<': signed/unsigned mismatch
+  Student.cpp
+  Unit.cpp
+  Generating Code...
+  Lecture_Week10.vcxproj -> D:\Desktops\proyek\Lecture_Week10\Debug\Lecture_Week10.exe

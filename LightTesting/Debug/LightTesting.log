@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\Desktops\Visual studio\LightTesting\Source.cpp(177,20): warning C4018: '<': signed/unsigned mismatch
+  LightTesting.vcxproj -> D:\Desktops\Visual studio\LightTesting\Debug\LightTesting.exe
