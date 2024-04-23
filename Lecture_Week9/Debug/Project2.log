@@ -1,0 +1,7 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Project2.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Animal.cpp
+  Bird.cpp
+  Source.cpp
+  Generating Code...
+  LINK : D:\Desktops\proyek\Lecture_Week9\Debug\Lecture_Week9.exe not found or not built by the last incremental link; performing full link
+  Project2.vcxproj -> D:\Desktops\proyek\Lecture_Week9\Debug\Lecture_Week9.exe

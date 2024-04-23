@@ -1,0 +1,4 @@
+D:\Desktops\proyek\Project2\Debug\Lecture_Week9.exe
+D:\Desktops\proyek\Project2\Debug\Lecture_Week9.pdb
+D:\Desktops\proyek\Lecture_Week9\Debug\Lecture_Week9.exe
+D:\Desktops\proyek\Lecture_Week9\Debug\Lecture_Week9.pdb
